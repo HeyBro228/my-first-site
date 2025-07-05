@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header, section, footer {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #0077cc;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.my-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .my-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
